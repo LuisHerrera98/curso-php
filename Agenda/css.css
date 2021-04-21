@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding:0;
+    background-image: url('jesus.png');
+    
+}
+
+.cuerpo{
+    width: 100%;
+    height: 550px;
+    background-image: url("agenda.jpg");
+    background-size:cover;
+}
+label{
+    font-size: 20px;
+}
+.label-chico{
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.boton-guardar{
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: blanchedalmond;
+    border:none;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+input{
+    width: 75%;
+    height: 28px;
+    font-size: 18px !important;
+    border:none;
+    border-radius: 4px;
+    border: rgb(41, 40, 40)  solid 1px;
+    background-color:rgb(170, 170, 170, 0.5);
+    box-shadow: 0px 0px 0px 0px #fff;
+    transition: all 650ms ease;
+}
+input:focus{
+    background-color: rgb(221, 221, 221);
+    outline: 0;
+    line-height: 60px;
+    transform: scale(1.07);
+}
+.caja-guardar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.boton{
+    position: relative;
+    top:430px;
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 59, 59);
+    border-radius: 20px;
+    font-family: 'New Tegomin';
+}
+.boton p{
+    margin:0;
+    text-decoration: none;
+    width: 100%;
+    color:blanchedalmond;
+    text-align: center;
+    font-size: 20px;
+}
+.boton p:hover{
+    color: black;
+    border-radius: 20px;
+}
+.a-boton:hover{
+    border-radius: 20px;
+    background-color: rgb(182, 155, 106);
+    color: black;
+    width: 120%;
+}
+a{
+    width: 100%;
+    text-decoration: none;
+    height: 30px;
+}
+.mes-dia{
+    width: 25%;
+    border:none;
+    border-bottom:1px solid #757575;
+}
+.mes-dia:focus{
+    border:none;
+}
+.caja-mes-dia{
+    padding-top: 10px;
+    
+    padding-left:  4px;
+    font-family: 'New Tegomin';
+}
+.flecha{
+    width: 13%;
+    margin: 0;
+    display: inline-block;
+    margin-left: 2px;
+}
+.flecha a p{
+    margin: 0;
+    text-align: center;
+    color:black;
+    background-color: rgb(170, 170, 170);
+    
+}
+.notenes{
+    color: red !important;
+    font-size: 20px !important;
+}
+    
+@media(min-width:350px){
+    .cuerpo{
+        width: 100%;
+        height: 650px;
+        background-image: url("agenda.jpg");
+        background-size:cover;
+    }
+}
+@media(min-width:360px){
+    .cuerpo{
+        width: 100%;
+        height: 700px;
+        background-image: url("agenda.jpg");
+        background-size:cover;
+    }
+}
+@media(min-width:370px){
+    .cuerpo{
+        width: 100%;
+        height: 720px;
+        background-image: url("agenda.jpg");
+        background-size:cover;
+    }
+}
